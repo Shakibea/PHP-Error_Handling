@@ -1,0 +1,16 @@
+go to php.ini search 
+    log_error = on (must be on)
+and search 
+    error_log = make a path and paste here(C:\temp\errorlog.txt)
+    //all error log will generate to this file... 
+
+generate any warning or notice
+    echo 12/0;
+
+in terminal ... 
+    tail -f C:\temp\errorlog.txt
+    //for seeing all log 
+
+search date.timezone in php.ini
+    change "UTC" to "Asia/Dhaka"
+    //for changing time in log file
